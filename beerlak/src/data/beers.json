@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Jam 52",
+        "price": 1030,
+        "image": "jam52.png",
+        "description": "American Pale Ale (APA)",
+        "abv": "5.2%"
+    },
+    {
+        "name": "Jam 72",
+        "price": 1185,
+        "image": "jam72.png",
+        "description": "West Coast IPA",
+        "abv": "7.2%"
+    },
+    {
+        "name": "Liquid Cocaine",
+        "price": 1345,
+        "image": "liquid_cocaine.png",
+        "description": "Douple / Imperial IPA",
+        "abv": "9%"
+    },
+    {
+        "name": "Mango Bay",
+        "price": 1030,
+        "image": "mango_bay.png",
+        "description": "American Pale Ale (APA)",
+        "abv": "5.2%"
+    },
+    {
+        "name": "Monkey Temple",
+        "price": 998,
+        "image": "monkey_temple.png",
+        "description": "Wit",
+        "abv": "4.6%"
+    },
+    {
+        "name": "New York Mocaccino",
+        "price": 1330,
+        "image": "new_york_mocaccino.png",
+        "description": "Milk Stout",
+        "abv": "6.6%"
+    },
+    {
+        "name": "Popstar",
+        "price": 1100,
+        "image": "popstar.png",
+        "description": "West Coast IPA",
+        "abv": "6%"
+    },
+    {
+        "name": "Tokyo Lemonade",
+        "price": 1030,
+        "image": "tokyo_lemonade.png",
+        "description": "Wit",
+        "abv": "4.2%"
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "Jam 52",
+        "type": "American Pale Ale",
+        "fill": 440,
+        "amounts": 2,
+        "price": 1030
+    },
+    {
+        "id": 2,
+        "name": "Jam 72",
+        "type": "West Coast IPA",
+        "fill": 440,
+        "amounts": 3,
+        "price": 1185
+    }
+]

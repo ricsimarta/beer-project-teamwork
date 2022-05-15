@@ -1,0 +1,395 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --yellow: #ffd100;
+  --black: #130b0c;
+  --white: #ffffff;
+  --gray: #8b8887;
+}
+
+#root {
+  background-color: var(--black);
+}
+
+/* -----  HEADER FORMATTING START  -----  */
+
+.header {
+  height: 80px;
+  width: 100%;
+  max-width: 1260px;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #000;
+  color: var(--white);
+  background-color: var(--black);
+  z-index: 201;
+}
+
+.header a {
+  margin-left: 30px;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Lato', serif;
+  font-weight: 400;
+  font-size: 25px;
+  color: var(--white);
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header-icons {
+  margin-right: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 50px;
+}
+
+.gg-home {
+  margin-top: 6px;
+}
+
+.header a:hover,
+.gg-home:hover,
+.gg-shopping-bag:hover,
+.gg-shopping-cart:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
+/* -----  HEADER FORMATTING END  ----- */
+
+/* -----  LANDING PAGE FORMATTING START  -----  */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+  max-width: 1400px;
+  margin: 0 auto;
+
+  background-color: #000;
+}
+
+#root {
+  max-width: 1200px;
+  padding: 30px;
+  background-color: var(--black);
+  margin: 0 auto;
+}
+
+#root .swiper-pagination {
+  padding-bottom: 20px;
+  --swiper-theme-color: var(--yellow);
+}
+
+#root .swiper-button-prev,
+#root .swiper-button-next {
+  --swiper-theme-color: var(--yellow);
+}
+
+.landing-swiper-container {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 1140px;
+    max-height: 100vh;
+    background-color: var(--black);
+  }
+  
+  .landing-swiper-component img {
+    width: calc(100% - 2px);
+    height: calc(100vh - 80px);
+    background-color: var(--black);
+    border: 1px solid #000;   
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* -----  LANDING PAGE FORMATTING END  ----- */
+
+/* -----  MENU ELEMENT FORMATTING START  -----  */
+
+.menuElement {
+  scroll-margin-top: 50px;
+
+  max-width: 1140px;
+
+  display: flex;
+  gap: 50px;
+
+  padding: 100px 50px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+
+  background-color: var(--black);
+
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+}
+
+.menuElement .filters {
+  max-width: 300px;
+
+  margin-top: 50px;
+
+  color: var(--white);
+}
+
+.menuElement .filters p.filter {
+  font-size: 16px;
+  color: var(--white);
+}
+
+.menuElement .filters .react-datalist-input__container {
+  margin-bottom: 50px;
+}
+
+.menuElement .filters .react-datalist-input__textbox {
+  width: 200px;
+  height: 30px;
+  
+  padding: 20px;
+  border: unset;
+  box-shadow: 0 0 15px 8px rgba(0, 0, 0, 0.2);
+  
+  background-color: var(--black);
+  
+  text-transform: uppercase;
+  color: var(--gray);
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+.menuElement .filters .react-datalist-input__listbox {
+  width: 200px;
+
+  border: 1px solid rgba(0, 0, 0, 0.3);
+
+  background-color: var(--black);
+
+  text-transform: uppercase;
+  color: #8b8887;
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  line-height: 30px;
+
+  overflow: hidden;
+
+  transition: all 0.3s;
+}
+
+.menuElement .filters .react-datalist-input__textbox[aria-expanded="true"]+ .react-datalist-input__listbox {
+  max-height: 180px;
+
+  animation: expand 0.3s linear;
+}
+
+@keyframes expand {
+  0% { max-height: 0 }
+  100% { max-height: 180px }
+}
+
+.menuElement .filters .react-datalist-input__listbox-option {
+  padding-left: 20px;
+}
+
+.menuElement .filters .react-datalist-input__listbox-option:hover {
+  background-color: unset;
+  color: var(--gray);
+}
+
+.menuElement .filters button.applyFilters {
+  width: 195px;
+  height: 50px;
+
+  margin-left: 5px;
+  margin-bottom: 15px;
+
+  border: 0;
+  border-radius: 5px;
+
+  background-color: var(--yellow);
+
+  font-size: 14px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+  transition: background-color 0.3s;
+}
+
+.menuElement .filters button.applyFilters:hover {
+  background-color: var(--white);
+  border: 1px solid var(--yellow);
+
+  transition: background-color 0.3s;
+}
+
+.menuElement .filters button.resetFilters {
+  width: 100px;
+  height: 20px;
+
+  margin-left: 52px;
+
+  border: 0;
+  border-radius: 5px;
+  padding: 0;
+
+  background-color: var(--black);
+
+  color: var(--gray);
+  font-size: 11px;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+
+  cursor: pointer;
+
+  transition: color 0.3s;
+}
+
+.menuElement .filters button.resetFilters:hover {
+  color: var(--white);
+
+  transition: color 0.3s;
+}
+
+.menuElement .beerGrid {
+  max-width: 840px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  gap: 20px;
+}
+
+.menuElement .beerGrid .beerCard {
+  height: 470px;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 20px;
+
+  color: var(--yellow);
+  font-family: 'Lato', sans-serif;
+}
+
+.menuElement .beerGrid .beerCard button.imageButton {
+  position: relative;
+
+  width: 250px;
+  height: 310px;
+
+  padding: 0;
+  margin-bottom: 10px;
+
+  appearance: none !important;
+  outline: none;
+  box-sizing: border-box;
+  background: transparent;
+  cursor: pointer;
+
+  border-radius: 0;
+  border: 0;
+}
+
+.menuElement .beerGrid .beerCard img {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 250px;
+  height: 250px;
+
+  padding: 30px 0;
+  margin-bottom: 0;
+
+  box-shadow: 0 0 15px 8px rgba(0, 0, 0, 0.2);
+}
+
+.menuElement .beerGrid .beerCard button.imageButton img.imageViewer {
+  transition: all 0.3s;
+}
+
+.menuElement .beerGrid .beerCard button.imageButton:focus img.imageViewer {
+  top: -125px;
+  left: -125px;
+
+  width: 540px;
+  height: 540px;
+  z-index: 5;
+
+  background-color: var(--black);
+
+  transition: all 0.3s;
+}
+
+.menuElement .beerGrid .beerCard p {
+  color: var(--yellow);
+  font-family: 'Lato', sans-serif;
+}
+
+.menuElement .beerGrid .beerCard p.beerName {
+  margin: 0;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.menuElement .beerGrid .beerCard p.beerDescription {
+  margin: 5px;
+  margin-top: 0;
+  margin-left: 15px;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.menuElement .beerGrid .beerCard p.beerAbv {
+  margin: 0px;
+  margin-left: 15px;
+  font-size: 12px;
+  color: var(--gray);
+}
+
+.menuElement .beerGrid .beerCard p.beerPrice {
+  margin: 20px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--white)
+}
+
+/* -----  MENU ELEMENT FORMATTING END  ----- */
