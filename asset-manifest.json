@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/beerlak/static/css/main.f392c80c.css",
-    "main.js": "/beerlak/static/js/main.d075d9f8.js",
-    "static/media/beer4.jpg": "/beerlak/static/media/beer4.7e05188b30cf82b7f569.jpg",
-    "static/media/beer5.jpg": "/beerlak/static/media/beer5.11d41015ab5b6552b764.jpg",
-    "static/media/mango_bay.png": "/beerlak/static/media/mango_bay.fc2a62c41e1865523035.png",
-    "static/media/monkey_temple.png": "/beerlak/static/media/monkey_temple.32819aa6c1631e70a377.png",
-    "static/media/popstar.png": "/beerlak/static/media/popstar.14f8d4cad151f405d534.png",
-    "static/media/jam52.png": "/beerlak/static/media/jam52.860a98f48401e44ce51d.png",
-    "static/media/tokyo_lemonade.png": "/beerlak/static/media/tokyo_lemonade.9c271506868d08ccd481.png",
-    "static/media/new_york_mocaccino.png": "/beerlak/static/media/new_york_mocaccino.70174bdfa5ddfefbc437.png",
-    "static/media/jam72.png": "/beerlak/static/media/jam72.f37928080814bc2c7564.png",
-    "static/media/liquid_cocaine.png": "/beerlak/static/media/liquid_cocaine.4679f80c24a1fe405aa3.png",
-    "static/media/sonkas.png": "/beerlak/static/media/sonkas.f3017322576055bc4af3.png",
-    "static/media/soskuki.png": "/beerlak/static/media/soskuki.6b24f0d6d039c111c4db.png",
-    "static/media/beer1.jpg": "/beerlak/static/media/beer1.52e903513511cf1b4e9b.jpg",
-    "index.html": "/beerlak/index.html",
-    "main.f392c80c.css.map": "/beerlak/static/css/main.f392c80c.css.map",
-    "main.d075d9f8.js.map": "/beerlak/static/js/main.d075d9f8.js.map"
+    "main.css": "/beer-project-teamwork/static/css/main.f392c80c.css",
+    "main.js": "/beer-project-teamwork/static/js/main.fcab373f.js",
+    "static/media/beer4.jpg": "/beer-project-teamwork/static/media/beer4.7e05188b30cf82b7f569.jpg",
+    "static/media/beer5.jpg": "/beer-project-teamwork/static/media/beer5.11d41015ab5b6552b764.jpg",
+    "static/media/mango_bay.png": "/beer-project-teamwork/static/media/mango_bay.fc2a62c41e1865523035.png",
+    "static/media/monkey_temple.png": "/beer-project-teamwork/static/media/monkey_temple.32819aa6c1631e70a377.png",
+    "static/media/popstar.png": "/beer-project-teamwork/static/media/popstar.14f8d4cad151f405d534.png",
+    "static/media/jam52.png": "/beer-project-teamwork/static/media/jam52.860a98f48401e44ce51d.png",
+    "static/media/tokyo_lemonade.png": "/beer-project-teamwork/static/media/tokyo_lemonade.9c271506868d08ccd481.png",
+    "static/media/new_york_mocaccino.png": "/beer-project-teamwork/static/media/new_york_mocaccino.70174bdfa5ddfefbc437.png",
+    "static/media/jam72.png": "/beer-project-teamwork/static/media/jam72.f37928080814bc2c7564.png",
+    "static/media/liquid_cocaine.png": "/beer-project-teamwork/static/media/liquid_cocaine.4679f80c24a1fe405aa3.png",
+    "static/media/sonkas.png": "/beer-project-teamwork/static/media/sonkas.f3017322576055bc4af3.png",
+    "static/media/soskuki.png": "/beer-project-teamwork/static/media/soskuki.6b24f0d6d039c111c4db.png",
+    "static/media/beer1.jpg": "/beer-project-teamwork/static/media/beer1.52e903513511cf1b4e9b.jpg",
+    "index.html": "/beer-project-teamwork/index.html",
+    "main.f392c80c.css.map": "/beer-project-teamwork/static/css/main.f392c80c.css.map",
+    "main.fcab373f.js.map": "/beer-project-teamwork/static/js/main.fcab373f.js.map"
   },
   "entrypoints": [
     "static/css/main.f392c80c.css",
-    "static/js/main.d075d9f8.js"
+    "static/js/main.fcab373f.js"
   ]
 }
